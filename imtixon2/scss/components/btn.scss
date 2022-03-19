@@ -1,0 +1,96 @@
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    background-color: #263238 ;
+    text-decoration: none;
+    color: #fff;
+
+}
+.nav__button {
+    margin-left: 200px;
+    background-color: #fff;
+}
+.head-body__button {
+    padding: 25px 70px;
+    font-size: $mainSize;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.skills-body__button {
+    text-align: center;
+    padding: 20px  30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+
+.price-item__button {
+    padding: 20px;
+    // text-align: left;
+    & > span {  
+    font-size: $SCTitleSize;
+    }
+    background-color: #F5F5F5;
+    color: #263238;
+}
+.footer__button {
+    margin-left: 10px;
+    padding: 20px 40px;
+}
+input {
+    width: 350px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .head-body__button {
+        margin-left: 30px;
+        padding: 20px 40px;
+    }
+    .skills-body__button{
+        padding: 10px  20px;
+        margin-left: 20px;
+    }
+    .price-item__button {
+    padding: 15px;
+    & > span {  
+        font-size: $mainSize;
+        }
+    }
+    .footer__button {
+        padding: 10px;
+        margin: 20px 0;
+    }
+    input {
+        padding: 10px 20px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .head-body__button {
+        margin: 0;
+    }
+    .price-item__button {
+        padding: 10px;
+        & > span {  
+            font-size: $SCTextSize;
+            }
+        }
+}
+@media screen and (max-width:320px) {
+    .footer__button {
+        width: 200px;
+        padding: 10px;
+        margin: 50px 0;
+        margin-top: 100px;
+    }
+    
+}
+
+

@@ -1,0 +1,149 @@
+.site-prices {
+    font-family: $mainFamily, Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+
+    &__title {
+        text-align: center;
+        font-size: $CardsTitle;
+        font-weight: $SBold;
+        margin-bottom: 30px;
+    }
+    &_box {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 500px;
+        text-align: center;
+        text-align: left;
+    }
+}
+.prices-item__title {
+    font-weight: $SBold;
+    font-size: $SCTitleSize;
+    margin: 10px 0;
+}
+.prices-item__text {
+    width: 350px;
+    margin-top: 20px;
+    font-size: $mainSize;
+    margin-bottom: 50px;
+    color:  #8F95A5 ;
+}
+
+
+@media screen and (max-width:1200px) {
+    .site-prices{
+        &__item {
+            width: 350px;
+        }
+        &__img {
+            width: 300px;
+        }
+        &_box {
+            justify-content: space-around;
+        }
+    }
+    .prices-item__text {
+        width: 300px;
+    }
+}
+@media screen and (max-width:992px) {
+    .site-prices{
+        &__item {
+            width: 300px;
+        }
+        &__img {
+            width: 250px;
+            height: 250px;
+        }
+        &_box {
+            justify-content: space-around;
+        }
+    }
+    .prices-item__text {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .site-prices{
+        &__item {
+            width: 220px;
+        }
+        &__img {
+            width: 150px;
+            height: 150px;
+        }
+        &_box {
+            justify-content: space-around;
+        }
+    }
+    .prices-item {
+        &__title {
+            font-size: $mainSize;
+        }
+        &__text {
+            width: 150px;
+        }
+    }
+
+}
+@media screen and (max-width: 575px) {
+    .site-prices{
+        &__item {
+            width: 250px;
+        }
+        &__img {
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        &_box {
+            margin-left: 150px;
+            justify-content: center;
+            display: block;
+
+        }
+    }
+    .prices-item {
+        &__title {
+            font-size: $mainSize;
+            width: 200px ;
+        }
+        &__text {
+            width: 200px;
+        }
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .site-prices{
+        &__item {
+            width: 250px;
+        }
+        &__img {
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        &_box {
+            margin-left: 50px;
+            justify-content: center;
+            display: block;
+
+        }
+    }
+    .prices-item {
+        &__title {
+            font-size: $mainSize;
+            width: 200px ;
+        }
+        &__text {
+            width: 200px;
+        }
+    }
+
+}
+

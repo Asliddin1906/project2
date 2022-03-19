@@ -1,0 +1,148 @@
+.head-body {
+    font-family: $mainFamily, Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+    
+    &__textbox {
+        width: 500px;
+        margin-top: 70px;
+    }
+    &__title {
+        margin-top: 20px;
+        font-size: $CardsTitle;
+        width: 400px;
+        margin-bottom: 60px;
+    }
+    &__img {
+        position: absolute;
+        left: 300px;
+        top: 10px;
+    }
+    &__text {
+        color: #8F95A5;
+        width: 400px;
+        font-size: $mainSize;
+        line-height: 28px;
+        margin-bottom:  100px;
+    }
+    
+}
+.head-title_box {
+    position: relative;
+}
+
+@media screen and (max-width: 1200px ) {
+    .head-body {
+        padding-left: 50px;
+        
+        
+    }
+}
+
+@media screen and (max-width:992px) {
+    .head-body {
+        padding-left: 40px;
+
+        &__textbox {
+            width: 450px;
+        }
+        &__rasm {
+            width: 450px;
+            height: 450px;
+        }
+        &__text {
+            width: 300px;
+        }
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .head-body {
+        padding-left: 20px;
+
+        &__textbox {
+            width: 350px;
+        }
+        &__rasm {
+            margin-top: 100px;
+            width: 350px;
+            height: 350px;
+        }
+        &__text {
+            width: 300px;
+        }
+    }
+    
+}
+@media screen and (max-width:575px) {
+    .head-body {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 100px;
+
+        &__img {
+            display: none;
+        }
+        &__rasm {
+            width: 450px;
+            height: 400px;
+        }
+        &__textbox {
+            text-align: center;
+            width: 400px;
+        }
+        
+        &__title {
+            width: 400px;
+            font-size: $SCTitleSize;
+        }
+        &__text {
+            width: 400px;
+            font-size: $SCTextSize;
+        }
+    }
+
+    
+    
+}
+@media screen and (max-width:320px) {
+    .head-body {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 100px;
+
+        &__img {
+            display: none;
+        }
+        &__rasm {
+            width: 250px;
+            height: 200px;
+        }
+        &__textbox {
+            text-align: center;
+            width: 250px;
+        }
+        
+        &__title {
+            width: 250px;
+            font-size: $SCTitleSize;
+        }
+        &__text {
+            width: 300px;
+            font-size: $SCTextSize;
+        }
+    }
+
+    
+    
+}

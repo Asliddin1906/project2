@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/sections/head-body.scss"
+    ],
+    "names": [],
+    "file": "head-body.css"
+}

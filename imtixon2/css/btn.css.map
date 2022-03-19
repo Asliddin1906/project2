@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,cAAc;CACzB;;AACD,AAAA,YAAY,CAAC;EACT,WAAW,EAAE,KAAK;CAErB",
+    "sources": [
+        "../scss/components/btn.scss"
+    ],
+    "names": [],
+    "file": "btn.css"
+}
