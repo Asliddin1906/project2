@@ -32,13 +32,12 @@ body {
 
     .menu__box {
         position: absolute;
-        width: 300px;
-        height: 30vh;
+        width: 250px;
         padding: 10px;
         display: flex;
         flex-direction: column;
 
-        background-color: cyan;
+        background-color: gray;
         border: 1px solid #333;
         transform: translateX(-800px);
 
